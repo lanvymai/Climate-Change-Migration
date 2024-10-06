@@ -13,9 +13,10 @@ This project investigates the impact of climate change and extreme weather event
 
 ## Project Overiview
 
-This data science project explores the relationships between climate change, specifically extreme weather events, and the rate of internal migration. 
-
+This data science project explores the relationships between climate change, specifically extreme weather events, and the rate of internal migration. I ran panel linear regression from merged dataset on RStudio, using Generalized Least Square and random effects to control for serial correlation and unobserved heterogeneity, respectively.
+ 
 ### The dataset
+> #### Create an original country-level dataset from merging Internal Displacement Monitoring Center (IDMC), World Risk Index (WRI) Report, and World Bank.
 > Merged from 3 different sources:
 > - Internal Displacement Monitoring Center  --> Internal Displacement Rate
 > - Germanwatch --> Climate Risk Index (CRI) 
@@ -34,9 +35,23 @@ This data science project explores the relationships between climate change, spe
 The project includes several key visualizations:
 
 1. Data Distribution
+
+<img width="692" alt="distribution" src="https://github.com/user-attachments/assets/b31f3997-a75b-4bea-9262-6b2b2a790300">
+
+  
 2. Correlation plot
+   
+![correplot](https://github.com/user-attachments/assets/ecf9d43d-4e72-4de9-8461-c56d83e8a15a)
+
 3. Scatterplot: Displacement to Exposure by Region
+
+![migrate region](https://github.com/user-attachments/assets/49cb4c15-9e96-4f69-8a4f-06de979d0a61)
+
+
 4. Scatterplot: Displacement to Exposure by Income Group
+
+![migrate income](https://github.com/user-attachments/assets/9e736b38-d7f7-4e33-932c-7c5b38cdbac3)
+
 
 ## Getting Started
 
@@ -50,8 +65,8 @@ To replicate this analysis:
 ## Results
 
 - Climate Risk Index negatively relates internal displacement rates (MigRate)
--     Counterintuitive
--     A possible explanation is the inability to migrate, which might be part of the construction of this index in terms
+  - Counterintuitive
+  - A possible explanation is the inability to migrate, which might be part of the construction of this index in terms
 - Exposure rate to weather-related events is positively associated with internal displacement rates (MigRate).
 - Internal displacement rates (MigRate) in high income countries is lower when exposure increase by one point.
 
