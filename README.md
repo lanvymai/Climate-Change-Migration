@@ -103,5 +103,6 @@ This project was completed as a part of ECON 380: Senior Capstone @Beloit Colleg
 
 Special thanks to the Midwest Economics Association for the opportunity to present this research.
 
-The full presentation of this research can be found [here](https://docs.google.com/presentation/d/1sKTUUIy_kA80zLxevyjVPrJ7maUXksZA/edit?usp=sharing&ouid=102529998437857684808&rtpof=true&sd=true)
+The full presentation of this research can be found [here](https://docs.google.com/presentation/d/1sKTUUIy_kA80zLxevyjVPrJ7maUXksZA/edit?usp=sharing&ouid=102529998437857684808&rtpof=true&sd=true).
+
 The full paper on this research can be found [here](https://drive.google.com/file/d/1GeLBRd9y7Mhj0aI2iwSC8F4fxtJVIjs7/view?usp=sharing)
