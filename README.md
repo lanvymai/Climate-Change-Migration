@@ -13,7 +13,9 @@ This project investigates the impact of climate change and extreme weather event
 
 ## Project Overiview
 
-This data science project explores the relationships between climate change, specifically extreme weather events, and the rate of internal migration. I ran panel linear regression from merged dataset on RStudio, using Generalized Least Square and random effects to control for serial correlation and unobserved heterogeneity, respectively.
+This data science project explores the relationships between climate change, specifically extreme weather events, and the rate of internal migration. 
+
+I ran panel linear regression from merged dataset on RStudio, using Generalized Least Square and random effects to control for serial correlation and unobserved heterogeneity, respectively.
  
 ### The dataset
 > #### Create an original country-level dataset from merging Internal Displacement Monitoring Center (IDMC), World Risk Index (WRI) Report, and World Bank.
@@ -34,21 +36,22 @@ This data science project explores the relationships between climate change, spe
 
 The project includes several key visualizations:
 
-1. Data Distribution
+### 1. Data Distribution
 
 <img width="692" alt="distribution" src="https://github.com/user-attachments/assets/b31f3997-a75b-4bea-9262-6b2b2a790300">
 
   
-2. Correlation plot
+### 2. Correlation plot
    
 ![correplot](https://github.com/user-attachments/assets/ecf9d43d-4e72-4de9-8461-c56d83e8a15a)
 
-3. Scatterplot: Displacement to Exposure by Region
+
+### 3. Scatterplot: Displacement to Exposure by Region
 
 ![migrate region](https://github.com/user-attachments/assets/49cb4c15-9e96-4f69-8a4f-06de979d0a61)
 
 
-4. Scatterplot: Displacement to Exposure by Income Group
+### 4. Scatterplot: Displacement to Exposure by Income Group
 
 ![migrate income](https://github.com/user-attachments/assets/9e736b38-d7f7-4e33-932c-7c5b38cdbac3)
 
@@ -61,6 +64,7 @@ To replicate this analysis:
 2. Install R and RStudio
 3. Open the R project file
 4. Run the analysis scripts
+
 
 ## Results
 
@@ -93,9 +97,11 @@ To replicate this analysis:
 - Study specific disasters in isolation - allows for teasing out coping mechanisms.
 
 
-
 ## Acknowledgments
+
+This project was completed as a part of ECON 380: Senior Capstone @Beloit College 2021. Special thanks to the course instructor Prof Diep Phan.
 
 Special thanks to the Midwest Economics Association for the opportunity to present this research.
 
 The full presentation of this research can be found [here](https://docs.google.com/presentation/d/1sKTUUIy_kA80zLxevyjVPrJ7maUXksZA/edit?usp=sharing&ouid=102529998437857684808&rtpof=true&sd=true)
+The full paper on this research can be found [here](https://drive.google.com/file/d/1GeLBRd9y7Mhj0aI2iwSC8F4fxtJVIjs7/view?usp=sharing)
